@@ -137,7 +137,7 @@ class Bot(discord.Client):
             icon_url="https://cdn.discordapp.com/attachments/660539946892787797/729721649154228294/right-arrow-25.gif")
         self.embed.add_field(name="**Answer:-**:-", value="0", inline=True)
 
-        await self.bot.add_reaction(embed,':100:')
+        #await self.bot.add_reaction(embed,':100:')
 
 
     async def clear_results(self):
